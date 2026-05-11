@@ -1,141 +1,119 @@
-/* ----------------------------------------------------------------
-	Canvas: Videographer
------------------------------------------------------------------*/
+/* ============================================================
+   CATA & CAMILO — Custom Wedding Styles
+   src/css/wedding.css  →  build/css/wedding.css
 
-:root, .not-dark {
-	--cnvs-themecolor: #e69c48;
-	--cnvs-themecolor-rgb: 230, 156, 72;
-	--cnvs-dark-color: #000;
+   FILOSOFÍA: Solo estilos que Canvas NO provee nativamente.
+   Todo lo demás usa clases de Bootstrap 5 + Canvas (app.css).
+   ============================================================ */
 
-	--cnvs-body-font: "area-normal", sans-serif;
-	--cnvs-primary-font: 'arsenica-variable', sans-serif;
-	--cnvs-secondary-font: "afronaut", sans-serif;
-
-	--cnvs-slider-arrows-bg-color: transparent;
-	--cnvs-slider-arrows-bg-hover-color: transparent;
-
-	--cnvs-frame-offset: 20px;
-	--cnvs-frame-bg: var(--cnvs-contrast-200);
-	--cnvs-slider-gradient-bg: var(--cnvs-contrast-rgb);
-	font-variation-settings: "opsz" 100, "wght" 400;
-
-	--cnvs-header-bg: transparent;
+/* ── Theme color override: swap Canvas teal → wedding gold ── */
+:root {
+    --cnvs-themecolor:     #b8965a;
+    --cnvs-themecolor-rgb: 184, 150, 90;
+    /* Warm cream body background */
+    --cnvs-body-bg:        #f9f4ed;
+    --bs-body-bg:          #f9f4ed;
+    --bs-body-bg-rgb:      249, 244, 237;
 }
 
-body.dark,
-.dark {
-	--cnvs-body-bg: var(--cnvs-dark-color);
-	/* --cnvs-header-bg: var(--cnvs-body-bg); */
-	--cnvs-frame-bg: var(--cnvs-contrast-200);
-	--cnvs-header-sticky-bg: transparent;
+/* ── Display font (Canvas only sets --cnvs-primary-font) ──── */
+/* Used for big headings — Cormorant Garamond via Typekit      */
+.wedding-title,
+.wedding-date-num {
+    font-family: 'cormorant-garamond', Georgia, serif;
 }
 
-.dark .not-dark .menu-link {
-	--cnvs-primary-menu-color: #fff;
+/* ── Hero title sizing ───────────────────────────────────── */
+.wedding-title {
+    font-size: clamp(3.4rem, 5vw, 5rem);
+    line-height: 1;
 }
 
-.swiper-slide .button:not(:hover) {
-	border-color: rgba(var(--cnvs-contrast-rgb),.25) !important;
+.wedding-name {
+    display: inline;
 }
 
-/* Dark Mode Switch */
-.body-scheme-toggle {
-	position: fixed;
-	top: auto;
-	right: calc(var(--cnvs-frame-offset) + 15px);
-	bottom: calc(var(--cnvs-frame-offset) + 15px);
-	text-align: center;
-	margin: 0 auto;
-	z-index: 299;
+.wedding-amp {
+    font-style: italic;
+    font-size: 0.82em;
+    vertical-align: middle;
+    margin: 0 0.15em;
+    color: var(--cnvs-themecolor);
 }
 
-.swiper-kenburn-effect .swiper-slide .swiper-slide-bg {
-	transition: 10s ease-out;
-	transform: scale(1);
+/* ── Floral background — fija en las 4 esquinas ──────────── */
+/* Sube la imagen a /build/img/wedding/bg-flores.png          */
+body,
+#wrapper {
+    background-color: var(--cnvs-body-bg);
+    background-image: url('/build/img/bg-flores.webp');
+    background-attachment: fixed;      /* flores siempre en esquinas */
+    background-size: 100% 100%;        /* cubre exactamente el viewport */
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
-.swiper-kenburn-effect .swiper-slide.swiper-slide-active .swiper-slide-bg {
-	transform: scale(1.1);
+/* Secciones con bg propio deben ser transparentes para ver las flores */
+.wedding-date-section,
+.section,
+#content .content-wrap {
+    background-color: transparent !important;
 }
 
-#header {
-	--cnvs-primary-menu-font-size: 1.25rem;
-	--cnvs-primary-menu-font: var(--cnvs-primary-font);
-	--cnvs-primary-menu-font-weight: 400;
-	--cnvs-primary-menu-ls: 0px;
-	--cnvs-primary-menu-tt: none;
+/* ── Floral corner images (ya no necesarias, las maneja el bg) ── */
+/* Se mantienen ocultas por si se usan en otras páginas sin bg global */
+.wedding-floral-corner { display: none; }
+
+/* ── Photo strip ─────────────────────────────────────────── */
+.wedding-strip {
+    height: clamp(180px, 26vw, 360px);
+}
+.wedding-strip-item { flex: 1; }
+.wedding-strip-item--tall { flex: 0.8; }
+.wedding-strip-item--wide { flex: 1.3; }
+.wedding-strip-img {
+    transition: transform 0.6s ease;
+}
+.wedding-strip-item:hover .wedding-strip-img {
+    transform: scale(1.06);
 }
 
-.is-expanded-menu #header + .include-header {
-	margin-top: -181px;
+/* ── Date section padding ────────────────────────────────── */
+.wedding-date-section {
+    padding-top: clamp(60px, 8vw, 110px);
+    padding-bottom: clamp(80px, 11vw, 160px);
 }
 
-/* Image Hover */
-.img-hover-block {
-	z-index: 0;
+/* ── Countdown number size ───────────────────────────────── */
+.wedding-cd-num {
+    font-size: clamp(1rem, 2.2vw, 1.5rem);
+    min-width: 2ch;
+    text-align: center;
+    font-variant-numeric: tabular-nums;
 }
 
-.img-hover-block span {
-	position: relative;
-	color: var(--cnvs-contrast-1000);
+/* ── Header sticky bg ────────────────────────────────────── */
+#header.sticky-header {
+    background: rgba(249, 244, 237, 0.95) !important;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
-.img-hover-block small {
-	position: absolute;
-	font-size: 26%;
-	font-weight: normal;
-	top: 5px;
-	right: 5px;
-	color: var(--cnvs-themecolor);
+/* ── Canvas themecolor link override ─────────────────────── */
+a { color: var(--cnvs-themecolor); }
+a:hover { color: var(--cnvs-themecolor); filter: brightness(0.85); }
+
+/* ── Responsive ──────────────────────────────────────────── */
+@media (max-width: 991.98px) {
+    .wedding-floral-tl,
+    .wedding-floral-tr { width: 160px; }
+    .wedding-strip      { height: 150px; }
+    .wedding-strip-item--tall,
+    .wedding-strip-item--wide { flex: 1; }
 }
 
-.img-hover-block:hover span {
-	mix-blend-mode: difference;
-	z-index: 2;
-}
-
-body:not(.dark) .img-hover-block:hover span {
-	color: var(--cnvs-contrast-0);
-}
-
-.hover-reveal {
-	position: fixed;
-	width: 220px;
-	height: 280px;
-	top: 0;
-	left: 0;
-	pointer-events: none;
-	opacity: 0;
-	z-index: 1;
-}
-
-.hover-reveal__inner,
-.hover-reveal__img {
-	width: 100%;
-	height: 100%;
-	position: relative;
-}
-
-.hover-reveal__inner {
-	overflow: hidden;
-}
-
-.hover-reveal__img {
-	background-size: cover;
-	background-position: 50% 50%;
-	border-radius: 4px;
-}
-
-.portfolio-desc h3 {
-	font-size: 1.5rem;
-}
-
-.grid-filter li a {
-	font-family: monospace;
-	font-weight: normal !important;
-	--cnvs-grid-filter-item-font-size: 1rem;
-}
-
-.grid-filter li:not(.activeFilter):not(:hover) a {
-	color: var(--cnvs-contrast-400);
+@media (max-width: 575.98px) {
+    .wedding-floral-tl,
+    .wedding-floral-tr { width: 110px; }
+    .wedding-strip      { height: 110px; }
 }

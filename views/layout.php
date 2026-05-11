@@ -21,6 +21,9 @@
 
     <!-- Font Imports -->
 	<link rel="stylesheet" href="https://use.typekit.net/tra1ost.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
 
     <!-- Core Style -->
     <link rel="stylesheet" href="/build/css/app.css">
