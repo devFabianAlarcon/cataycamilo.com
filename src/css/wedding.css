@@ -1,29 +1,24 @@
 /* ============================================================
    CATA & CAMILO — Custom Wedding Styles
    src/css/wedding.css  →  build/css/wedding.css
-
    FILOSOFÍA: Solo estilos que Canvas NO provee nativamente.
-   Todo lo demás usa clases de Bootstrap 5 + Canvas (app.css).
    ============================================================ */
 
-/* ── Theme color override: swap Canvas teal → wedding gold ── */
+/* ── Theme color ─────────────────────────────────────────── */
 :root {
     --cnvs-themecolor:     #b8965a;
     --cnvs-themecolor-rgb: 184, 150, 90;
-    /* Warm cream body background */
     --cnvs-body-bg:        #f9f4ed;
     --bs-body-bg:          #f9f4ed;
     --bs-body-bg-rgb:      249, 244, 237;
 }
 
-/* ── Display font (Canvas only sets --cnvs-primary-font) ──── */
-/* Used for big headings — Cormorant Garamond via Typekit      */
+/* ── Fonts ───────────────────────────────────────────────── */
 .wedding-title,
 .wedding-date-num {
-    font-family: 'cormorant-garamond', Georgia, serif;
+    font-family: 'Bodoni Moda', 'cormorant-garamond', Georgia, serif;
 }
 
-/* ── Hero title sizing ───────────────────────────────────── */
 .wedding-title {
     font-size: clamp(3.4rem, 5vw, 5rem);
     line-height: 1;
@@ -41,50 +36,28 @@
     color: var(--cnvs-themecolor);
 }
 
-/* ── Floral background — fija en las 4 esquinas ──────────── */
-/* Sube la imagen a /build/img/wedding/bg-flores.png          */
-body,
-#wrapper {
-    background-color: var(--cnvs-body-bg);
-    background-image: url('/build/img/bg-flores.webp');
-    background-attachment: fixed;      /* flores siempre en esquinas */
-    background-size: 100% 100%;        /* cubre exactamente el viewport */
-    background-repeat: no-repeat;
-    background-position: center center;
+/* ── Floral background ───────────────────────────────────── */
+@media (min-width: 992px) {
+    body,
+    #wrapper {
+        background-color: var(--cnvs-body-bg);
+        background-image: url('/build/img/bg-flores-3.webp');
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
 }
 
-/* Secciones con bg propio deben ser transparentes para ver las flores */
 .wedding-date-section,
 .section,
 #content .content-wrap {
     background-color: transparent !important;
 }
 
-/* ── Floral corner images (ya no necesarias, las maneja el bg) ── */
-/* Se mantienen ocultas por si se usan en otras páginas sin bg global */
 .wedding-floral-corner { display: none; }
 
-/* ── Photo strip ─────────────────────────────────────────── */
-.wedding-strip {
-    height: clamp(180px, 26vw, 360px);
-}
-.wedding-strip-item { flex: 1; }
-.wedding-strip-item--tall { flex: 0.8; }
-.wedding-strip-item--wide { flex: 1.3; }
-.wedding-strip-img {
-    transition: transform 0.6s ease;
-}
-.wedding-strip-item:hover .wedding-strip-img {
-    transform: scale(1.06);
-}
-
-/* ── Date section padding ────────────────────────────────── */
-.wedding-date-section {
-    padding-top: clamp(60px, 8vw, 110px);
-    padding-bottom: clamp(80px, 11vw, 160px);
-}
-
-/* ── Countdown number size ───────────────────────────────── */
+/* ── Countdown number ────────────────────────────────────── */
 .wedding-cd-num {
     font-size: clamp(1rem, 2.2vw, 1.5rem);
     min-width: 2ch;
@@ -92,28 +65,110 @@ body,
     font-variant-numeric: tabular-nums;
 }
 
-/* ── Header sticky bg ────────────────────────────────────── */
+/* ── Header sticky ───────────────────────────────────────── */
 #header.sticky-header {
     background: rgba(249, 244, 237, 0.95) !important;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
 }
 
-/* ── Canvas themecolor link override ─────────────────────── */
+/* ── Link color ──────────────────────────────────────────── */
 a { color: var(--cnvs-themecolor); }
 a:hover { color: var(--cnvs-themecolor); filter: brightness(0.85); }
 
-/* ── Responsive ──────────────────────────────────────────── */
+/* ============================================================
+   100VH LAYOUT — solo en el home
+   Agrega al inicio de views/home/index.php:
+   <script>document.body.classList.add('page-home');</script>
+   ============================================================ */
+body.page-home {
+    overflow: hidden;
+    height: 100vh;
+}
+
+body.page-home #wrapper {
+    display: flex !important;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body.page-home #header {
+    flex-shrink: 0;
+}
+
+body.page-home #content {
+    flex: 1 1 0;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+body.page-home #content .content-wrap {
+    flex: 1 1 0;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 0 !important;
+}
+
+/* Carousel: 28% del espacio disponible */
+body.page-home #content .owl-carousel {
+    flex: 0 0 28%;
+    min-height: 0;
+}
+
+body.page-home #content .owl-carousel .owl-stage-outer,
+body.page-home #content .owl-carousel .owl-stage,
+body.page-home #content .owl-carousel .owl-item,
+body.page-home #content .owl-carousel .portfolio-item,
+body.page-home #content .owl-carousel .grid-inner,
+body.page-home #content .owl-carousel .portfolio-image,
+body.page-home #content .owl-carousel .portfolio-image img {
+    height: 100% !important;
+    object-fit: cover;
+}
+
+/* Sección fecha: llena el resto exacto */
+body.page-home .wedding-date-section {
+    flex: 1 1 0;
+    min-height: 0;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+}
+
+/* Compactar márgenes para que todo quepa sin scroll */
+body.page-home .wedding-date-section .mb-4 { margin-bottom: 0.5rem !important; }
+body.page-home .wedding-date-section .mb-3 { margin-bottom: 0.4rem !important; }
+body.page-home .wedding-date-section .mb-5 { margin-bottom: 0.75rem !important; }
+body.page-home .wedding-date-section .mb-2 { margin-bottom: 0.3rem !important; }
+
+/* ── Responsive: móvil con scroll normal ─────────────────── */
 @media (max-width: 991.98px) {
-    .wedding-floral-tl,
-    .wedding-floral-tr { width: 160px; }
-    .wedding-strip      { height: 150px; }
-    .wedding-strip-item--tall,
-    .wedding-strip-item--wide { flex: 1; }
+    body.page-home,
+    body.page-home #wrapper {
+        height: auto;
+        overflow-y: auto;
+    }
+    body.page-home #content,
+    body.page-home #content .content-wrap {
+        flex: none;
+        overflow: visible;
+    }
+    body.page-home #content .owl-carousel {
+        flex: none;
+        height: 150px;
+    }
+    body.page-home .wedding-date-section {
+        flex: none;
+        padding: 2rem 0 !important;
+    }
 }
 
 @media (max-width: 575.98px) {
-    .wedding-floral-tl,
-    .wedding-floral-tr { width: 110px; }
-    .wedding-strip      { height: 110px; }
+    body.page-home #content .owl-carousel { height: 110px; }
 }

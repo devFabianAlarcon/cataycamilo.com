@@ -16,4 +16,28 @@ class IndexController {
             'alertas' => $alertas
         ]);
     }
+
+    public static function nuestraHistoria(Router $router) {
+
+        $alertas = [];
+
+        
+        // Render a la vista 
+        $router->render('index/nuestra-historia', [
+            'titulo' => 'Nuestra Historia',
+            'alertas' => $alertas
+        ]);
+    }
+
+    public static function laBoda(Router $router) {
+
+        $alertas = [];
+
+        
+        // Render a la vista 
+        $router->render('index/la-boda', [
+            'titulo' => 'La Boda',
+            'alertas' => $alertas
+        ]);
+    }
 }

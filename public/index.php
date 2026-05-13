@@ -13,6 +13,12 @@ $router = new Router();
 $router->get('/', [IndexController::class, 'index']);
 $router->post('/', [IndexController::class, 'index']);
 
+$router->get('/nuestra-historia', [IndexController::class, 'nuestraHistoria']);
+$router->post('/nuestra-historia', [IndexController::class, 'nuestraHistoria']);
+
+$router->get('/la-boda', [IndexController::class, 'laBoda']);
+$router->post('/la-boda', [IndexController::class, 'laBoda']);
+
 // 404
 $router->get('/404',[Page404Controller::class, 'error']);
 

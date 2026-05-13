@@ -3,7 +3,7 @@
    Vista: views/home/index.php
    ============================================================ -->
 
-<div id="related-portfolio" class="owl-carousel owl-carousel-full portfolio-carousel carousel-widget" data-margin="0" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5" data-loop="true" data-autoplay="5000">
+<div id="related-portfolio" class="owl-carousel owl-carousel-full portfolio-carousel carousel-widget" data-margin="2" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="7" data-loop="true" data-autoplay="5000">
     <article class="portfolio-item pf-graphics pf-uielements">
         <div class="grid-inner">
             <div class="portfolio-image">
@@ -77,32 +77,7 @@
      ─────────────────────────────────────────────────────── -->
 <section class="position-relative overflow-hidden text-center wedding-date-section p-0">
 
-    <!-- Floral BL -->
-    <div class="position-absolute bottom-0 start-0 z-1 pe-none wedding-floral-corner wedding-floral-date-bl">
-        <img src="/build/img/wedding/floral-date-bl.png" alt="" class="d-block">
-    </div>
-    <!-- Floral BR -->
-    <div class="position-absolute bottom-0 end-0 z-1 pe-none wedding-floral-corner wedding-floral-date-br">
-        <img src="/build/img/wedding/floral-date-br.png" alt="" class="d-block">
-    </div>
-
     <div class="container position-relative z-5 py-4">
-
-        <!-- Ornament -->
-        <div class="mb-4" aria-hidden="true">
-            <svg width="34" height="42" viewBox="0 0 34 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <ellipse cx="17" cy="8" rx="2" ry="4.5" fill="var(--cnvs-themecolor)" opacity="0.75"/>
-                <ellipse cx="17" cy="8" rx="2" ry="4.5" fill="var(--cnvs-themecolor)" opacity="0.75" transform="rotate(60 17 15)"/>
-                <ellipse cx="17" cy="8" rx="2" ry="4.5" fill="var(--cnvs-themecolor)" opacity="0.75" transform="rotate(120 17 15)"/>
-                <ellipse cx="17" cy="8" rx="2" ry="4.5" fill="var(--cnvs-themecolor)" opacity="0.75" transform="rotate(180 17 15)"/>
-                <ellipse cx="17" cy="8" rx="2" ry="4.5" fill="var(--cnvs-themecolor)" opacity="0.75" transform="rotate(240 17 15)"/>
-                <ellipse cx="17" cy="8" rx="2" ry="4.5" fill="var(--cnvs-themecolor)" opacity="0.75" transform="rotate(300 17 15)"/>
-                <circle cx="17" cy="15" r="2" fill="var(--cnvs-themecolor)"/>
-                <line x1="17" y1="19" x2="17" y2="40" stroke="var(--cnvs-themecolor)" stroke-width="0.75"/>
-                <path d="M17 27 Q12 25 11 21" stroke="var(--cnvs-themecolor)" stroke-width="0.65" fill="none"/>
-                <path d="M17 32 Q22 30 23 26" stroke="var(--cnvs-themecolor)" stroke-width="0.65" fill="none"/>
-            </svg>
-        </div>
 
         <!-- Day name -->
         <p class="mb-3 text-contrast-600 fw-semibold text-smaller ls-5" style="letter-spacing: 0.5em;">
@@ -112,23 +87,23 @@
         <!-- Date row -->
         <div class="d-flex flex-wrap align-items-center justify-content-center gap-3 mb-3">
             <span class="wedding-date-num fw-light text-contrast-900"
-                  style="font-family: 'cormorant-garamond', Georgia, serif; font-size: clamp(2.2rem, 3vw, 3rem); line-height: 1;">
+                  style="font-family: 'Bodoni Moda', Georgia, serif; font-size: clamp(2.2rem, 3vw, 3rem); line-height: 1; font-weight: 300;">
                 05
             </span>
             <span class="op-04 text-contrast-900"
-                  style="font-family: 'cormorant-garamond', Georgia, serif; font-size: clamp(1.8rem, 3.5vw, 3.5rem);">
+                  style="font-family: 'Bodoni Moda', Georgia, serif; font-size: clamp(1.8rem, 3.5vw, 3.5rem); font-weight: 400;">
                 |
             </span>
             <span class="fw-light text-contrast-900"
-                  style="font-family: 'cormorant-garamond', Georgia, serif; font-size: clamp(1.8rem, 4.5vw, 3rem); line-height: 1; letter-spacing: 0.08em;">
+                  style="font-family: 'Bodoni Moda', Georgia, serif; font-size: clamp(1.8rem, 4.5vw, 3rem); line-height: 1; letter-spacing: 0.08em; font-weight: 300;">
                 S E P T I E M B R E
             </span>
             <span class="op-04 text-contrast-900"
-                  style="font-family: 'cormorant-garamond', Georgia, serif; font-size: clamp(1.8rem, 3.5vw, 3.5rem);">
+                  style="font-family: 'Bodoni Moda', Georgia, serif; font-size: clamp(1.8rem, 3.5vw, 3.5rem);">
                 |
             </span>
             <span class="fw-light text-contrast-900"
-                  style="font-family: 'cormorant-garamond', Georgia, serif; font-size: clamp(2.2rem, 3vw, 3rem); line-height: 1;">
+                  style="font-family: 'Bodoni Moda', Georgia, serif; font-size: clamp(2.2rem, 3vw, 3rem); line-height: 1; font-weight: 300;">
                 2026
             </span>
         </div>
@@ -172,12 +147,21 @@
             </div>
         </div>
 
-        <!-- RSVP button — Canvas: .button .button-border .rounded-pill -->
-        <a href="/rsvp"
-           class="button button-border rounded-pill px-5 py-3 fw-bold ls-4 text-smaller"
-           style="border-color: var(--cnvs-themecolor); color: var(--cnvs-themecolor); letter-spacing: 0.4em;">
-            R S V P
-        </a>
+                <!-- Ornament -->
+        <div class="mb-4" aria-hidden="true">
+            <svg width="34" height="42" viewBox="0 0 34 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="17" cy="8" rx="2" ry="4.5" fill="var(--cnvs-themecolor)" opacity="0.75"/>
+                <ellipse cx="17" cy="8" rx="2" ry="4.5" fill="var(--cnvs-themecolor)" opacity="0.75" transform="rotate(60 17 15)"/>
+                <ellipse cx="17" cy="8" rx="2" ry="4.5" fill="var(--cnvs-themecolor)" opacity="0.75" transform="rotate(120 17 15)"/>
+                <ellipse cx="17" cy="8" rx="2" ry="4.5" fill="var(--cnvs-themecolor)" opacity="0.75" transform="rotate(180 17 15)"/>
+                <ellipse cx="17" cy="8" rx="2" ry="4.5" fill="var(--cnvs-themecolor)" opacity="0.75" transform="rotate(240 17 15)"/>
+                <ellipse cx="17" cy="8" rx="2" ry="4.5" fill="var(--cnvs-themecolor)" opacity="0.75" transform="rotate(300 17 15)"/>
+                <circle cx="17" cy="15" r="2" fill="var(--cnvs-themecolor)"/>
+                <line x1="17" y1="19" x2="17" y2="40" stroke="var(--cnvs-themecolor)" stroke-width="0.75"/>
+                <path d="M17 27 Q12 25 11 21" stroke="var(--cnvs-themecolor)" stroke-width="0.65" fill="none"/>
+                <path d="M17 32 Q22 30 23 26" stroke="var(--cnvs-themecolor)" stroke-width="0.65" fill="none"/>
+            </svg>
+        </div>
 
     </div>
 </section>
@@ -206,3 +190,4 @@
     tick(); setInterval(tick, 1000);
 })();
 </script>
+<script>document.body.classList.add('page-home');</script>
