@@ -1,7 +1,7 @@
 {
-  "name": "nunez-accouting",
+  "name": "cata-y-camilo",
   "version": "1.0.0",
-  "description": "Pagina web Nunez accouting",
+  "description": "Pagina web Cata y Camilo",
   "main": "index.js",
   "scripts": {
     "dev": "gulp dev",

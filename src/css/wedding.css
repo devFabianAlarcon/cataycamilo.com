@@ -8,8 +8,8 @@
 :root {
     --cnvs-themecolor:     #b8965a;
     --cnvs-themecolor-rgb: 184, 150, 90;
-    --cnvs-body-bg:        #f9f4ed;
-    --bs-body-bg:          #f9f4ed;
+    --cnvs-body-bg:        #F9F8F8;
+    --bs-body-bg:          #F9F8F8;
     --bs-body-bg-rgb:      249, 244, 237;
 }
 
