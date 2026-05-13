@@ -65,7 +65,7 @@ $current_path = trim($_SERVER['REQUEST_URI'], '/');
                         <li class="menu-item <?php echo $current_page == 'nuestra-historia' ? 'current' : ''; ?>"><a class="menu-link" href="/nuestra-historia"><div>Nuestra Historia</div></a></li>
                         <li class="menu-item <?php echo $current_page == 'la-boda' ? 'current' : ''; ?>"><a class="menu-link" href="/la-boda"><div>La Boda</div></a></li>
                         <li class="menu-item <?php echo $current_page == 'planea-tu-visita' ? 'current' : ''; ?>"><a class="menu-link" href="/planea-tu-visita"><div>Planea Tu Visita</div></a></li>
-                        <li class="menu-item"><a href="#register" class="menu-link button button-border button-circle color border-color">R s v p</a>
+                        <li class="menu-item"><a href="/rsvp" class="menu-link button button-border button-circle border-color">R s v p</a>
 						</li>
                     </ul>
 

@@ -40,4 +40,15 @@ class IndexController {
             'alertas' => $alertas
         ]);
     }
+    public static function rsvp(Router $router) {
+
+        $alertas = [];
+
+        
+        // Render a la vista 
+        $router->render('index/rsvp', [
+            'titulo' => 'RSVP',
+            'alertas' => $alertas
+        ]);
+    }
 }

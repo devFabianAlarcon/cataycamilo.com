@@ -19,6 +19,9 @@ $router->post('/nuestra-historia', [IndexController::class, 'nuestraHistoria']);
 $router->get('/la-boda', [IndexController::class, 'laBoda']);
 $router->post('/la-boda', [IndexController::class, 'laBoda']);
 
+$router->get('/rsvp', [IndexController::class, 'rsvp']);
+$router->post('/rsvp', [IndexController::class, 'rsvp']);
+
 // 404
 $router->get('/404',[Page404Controller::class, 'error']);
 
