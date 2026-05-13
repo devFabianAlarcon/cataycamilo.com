@@ -12,7 +12,7 @@ class IndexController {
         
         // Render a la vista 
         $router->render('index/index', [
-            'titulo' => 'Home Page',
+            'titulo' => 'Bienvenidos',
             'alertas' => $alertas
         ]);
     }
