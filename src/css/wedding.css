@@ -76,6 +76,17 @@
 a { color: var(--cnvs-themecolor); }
 a:hover { color: var(--cnvs-themecolor); filter: brightness(0.85); }
 
+/* ── Button styles ───────────────────────────────────────── */
+.button-border {
+    transition: all 0.3s ease;
+}
+
+.button-border:hover {
+    background-color: var(--cnvs-themecolor) !important;
+    border-color: var(--cnvs-themecolor) !important;
+    color: #ffffff !important;
+}
+
 /* ============================================================
    100VH LAYOUT — solo en el home
    Agrega al inicio de views/home/index.php:
