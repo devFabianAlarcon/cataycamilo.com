@@ -51,4 +51,16 @@ class IndexController {
             'alertas' => $alertas
         ]);
     }
+
+    public static function planeaTuVisita(Router $router) {
+
+        $alertas = [];
+
+        
+        // Render a la vista 
+        $router->render('index/planea-tu-visita', [
+            'titulo' => 'Planea tu Visita',
+            'alertas' => $alertas
+        ]);
+    }
 }

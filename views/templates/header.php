@@ -34,7 +34,7 @@ $current_path = trim($_SERVER['REQUEST_URI'], '/');
                 </p>
 
                 <!-- Thin gold rule -->
-                <div class="d-flex align-items-center justify-content-center gap-2 mt-4" aria-hidden="true">
+                <div class="d-flex align-items-center justify-content-center gap-2 mt-4 mb-2" aria-hidden="true">
                     <span class="flex-shrink-0 op-05" style="width:40px; height:1px; background:var(--cnvs-themecolor); display:block;"></span>
                     <svg width="7" height="7" viewBox="0 0 7 7"><circle cx="3.5" cy="3.5" r="3" stroke="var(--cnvs-themecolor)" stroke-width="0.8" fill="none"/></svg>
                     <span class="flex-shrink-0 op-05" style="width:40px; height:1px; background:var(--cnvs-themecolor); display:block;"></span>
