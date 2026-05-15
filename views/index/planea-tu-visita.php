@@ -63,8 +63,7 @@
                              class="mb-4"
                              alt="Sabana Park"
                              style="width:100%;
-                                    height:260px;
-                                    object-fit:cover;">
+                                    height:280px;">
 
                         <p class="mb-2 fw-light"
                            style="font-family:'Bodoni Moda',Georgia,serif;
@@ -74,7 +73,7 @@
                             Sabana Park
                         </p>
 
-                        <a href="#"
+                        <a href="https://www.hotelsabanapark.com.co/en/"
                            target="_blank"
                            class="button button-border rounded-pill text-smaller fw-bold px-4 py-2"
                            style="border-color:var(--cnvs-themecolor);
@@ -95,8 +94,7 @@
                              class="mb-4"
                              alt="B3 Hotel"
                              style="width:100%;
-                                    height:260px;
-                                    object-fit:cover;">
+                                    height:280px;">
 
                         <p class="mb-2 fw-light"
                            style="font-family:'Bodoni Moda',Georgia,serif;
@@ -106,7 +104,7 @@
                             B3 Hotel
                         </p>
 
-                        <a href="#"
+                        <a href="https://hotelesb3.com/hotelb3sibelius/"
                            target="_blank"
                            class="button button-border rounded-pill text-smaller fw-bold px-4 py-2"
                            style="border-color:var(--cnvs-themecolor);
@@ -160,13 +158,21 @@
                         <p class="mb-2 fw-light"
                            style="font-family:'Bodoni Moda',Georgia,serif;
                                   font-size:1.3rem;">
-                            Wagon
+                            Hotel Sabana Park
                         </p>
 
-                        <p class="mb-0 text-smaller text-contrast-500 fw-semibold"
+                        <p class="mb-0 text-smaller text-contrast-500 fw-semibold pb-3"
                            style="letter-spacing:0.2em;">
-                            CATA LINK
+                            Cod: CATALINA Y CAMILO
                         </p>
+                        <a href="https://www.hotelsabanapark.com.co/es/"
+                           target="_blank"
+                           class="button button-border rounded-pill text-smaller fw-bold px-4 py-2"
+                           style="border-color:var(--cnvs-themecolor);
+                                  color:var(--cnvs-themecolor);
+                                  letter-spacing:0.2em;">
+                            Ver Hotel
+                        </a>
                     </div>
                 </div>
 
@@ -181,10 +187,18 @@
                             Uber
                         </p>
 
-                        <p class="mb-0 text-smaller text-contrast-500 fw-semibold"
+                        <p class="mb-0 text-smaller text-contrast-500 fw-semibold pb-3"
                            style="letter-spacing:0.2em;">
                             No uses taxi
                         </p>
+                        <a href="https://hotelesb3.com/hotelb3sibelius/"
+                           target="_blank"
+                           class="button button-border rounded-pill text-smaller fw-bold px-4 py-2"
+                           style="border-color:var(--cnvs-themecolor);
+                                  color:var(--cnvs-themecolor);
+                                  letter-spacing:0.2em;">
+                            Descarga la App
+                        </a>
                     </div>
                 </div>
 
@@ -196,13 +210,21 @@
                         <p class="mb-2 fw-light"
                            style="font-family:'Bodoni Moda',Georgia,serif;
                                   font-size:1.3rem;">
-                            Conductores Andrés
+                            Conductor Elegido Andrés
                         </p>
 
-                        <p class="mb-0 text-smaller text-contrast-500 fw-semibold"
+                        <p class="mb-0 text-smaller text-contrast-500 fw-semibold pb-3"
                            style="letter-spacing:0.2em;">
-                            Recomendados
+                            RAIDA Servicios de Movilidad
                         </p>
+                        <a href="https://raida.com.co"
+                           target="_blank"
+                           class="button button-border rounded-pill text-smaller fw-bold px-4 py-2"
+                           style="border-color:var(--cnvs-themecolor);
+                                  color:var(--cnvs-themecolor);
+                                  letter-spacing:0.2em;">
+                            Reserva Aqui
+                        </a>
                     </div>
                 </div>
 
