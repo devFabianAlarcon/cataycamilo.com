@@ -125,15 +125,6 @@
         <div class="grid-inner">
             <div class="portfolio-image">
                 <a href="#">
-                    <img src="/build/img/014.webp" alt="Mac Sunglasses">
-                </a>
-            </div>
-        </div>
-    </article>
-    <article class="portfolio-item pf-graphics pf-uielements">
-        <div class="grid-inner">
-            <div class="portfolio-image">
-                <a href="#">
                     <img src="/build/img/015.webp" alt="Mac Sunglasses">
                 </a>
             </div>
