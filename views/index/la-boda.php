@@ -78,7 +78,7 @@
             <div class="row g-4 justify-content-center">
                 <div class="col-10 col-sm-5">
                     <div class="p-4 h-100" style="border:1px solid rgba(184,150,90,.25); background:rgba(249,244,237,.6);">
-                        <p class="mb-1 text-contrast-400 text-smaller fw-semibold" style="letter-spacing:0.3em; text-transform:uppercase;">Ellas</p>
+                        <p class="mb-1 text-contrast-600 text-smaller fw-semibold" style="letter-spacing:0.3em; text-transform:uppercase;">Ellas</p>
                         <p class="mb-0 fw-light" style="font-family:'Bodoni Moda',Georgia,serif; font-size:1.1rem; color:#2e2b26;">
                             Hermosas de vestido largo
                         </p>
@@ -86,7 +86,7 @@
                 </div>
                 <div class="col-10 col-sm-5">
                     <div class="p-4 h-100" style="border:1px solid rgba(184,150,90,.25); background:rgba(249,244,237,.6);">
-                        <p class="mb-1 text-contrast-400 text-smaller fw-semibold" style="letter-spacing:0.3em; text-transform:uppercase;">Ellos</p>
+                        <p class="mb-1 text-contrast-600 text-smaller fw-semibold" style="letter-spacing:0.3em; text-transform:uppercase;">Ellos</p>
                         <p class="mb-0 fw-light" style="font-family:'Bodoni Moda',Georgia,serif; font-size:1.1rem; color:#2e2b26;">
                             Elegantes de corbata
                         </p>
