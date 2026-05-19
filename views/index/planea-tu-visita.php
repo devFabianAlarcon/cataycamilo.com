@@ -67,9 +67,13 @@
                                   color:#2e2b26;">
                             Sabana Park
                         </p>
+                        <p class="mb-3 text-contrast-600 fw-semibold text-smaller" style="letter-spacing:0.3em; ">
+                Cra. 5 #9 - 26 Sur, Cajicá, Cundinamarca
+
+            </p>
                         <p class="mb-0 text-smaller text-contrast-600 fw-semibold pb-3"
                            style="letter-spacing:0.2em;">
-                            Cod: CATALINA Y CAMILO
+                            Promo Code: CATALINAYCAMILO
                         </p>
 
                         <a href="https://www.hotelsabanapark.com.co/en/"
@@ -97,9 +101,12 @@
                                   color:#2e2b26;">
                             B3 Hotel
                         </p>
+                        <p class="mb-3 text-contrast-600 fw-semibold text-smaller" style="letter-spacing:0.3em; ">
+                SEC LA CARO, AUTO NORTE, Vda. Fusca, Chía, Cundinamarca
+            </p>
                         <p class="mb-0 text-smaller fw-semibold pb-3"
                            style="letter-spacing:0.2em; color:#F8F4F1">
-                            Cod: CATALINA Y CAMILO
+                            Codigo: CATALINAYCAMILO
                         </p>
 
                         <a href="https://hotelesb3.com/hotelb3sibelius/"
@@ -245,8 +252,8 @@
                                   font-size:1.3rem;">
                             Fontanar
                         </p>
-                                    <p class="mb-3 text-contrast-600 fw-semibold text-smaller" style="letter-spacing:0.3em; text-transform:uppercase;">
-                Calle 3 # 11A-56, Variante de la Luna
+                                    <p class="mb-3 text-contrast-600 fw-semibold text-smaller" style="letter-spacing:0.3em;">
+                Cajicá - Chía #Km 2.5, Chía, Cundinamarca
             </p>
                     </div>
                 </div>
@@ -260,24 +267,8 @@
                                   font-size:1.3rem;">
                             Centro Chia
                         </p>
-                                    <p class="mb-3 text-contrast-600 fw-semibold text-smaller" style="letter-spacing:0.3em; text-transform:uppercase;">
-                Calle 3 # 11A-56, Variante de la Luna
-            </p>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-4">
-                    <div class="p-4"
-                         style="border:1px solid rgba(184,150,90,.22);
-                                background:rgba(249,244,237,.55);">
-
-                        <p class="mb-0 fw-light"
-                           style="font-family:'Bodoni Moda',Georgia,serif;
-                                  font-size:1.3rem;">
-                            Peluquería Sabana
-                        </p>
-                                    <p class="mb-3 text-contrast-600 fw-semibold text-smaller" style="letter-spacing:0.3em; text-transform:uppercase;">
-                Calle 3 # 11A-56, Variante de la Luna
+                                    <p class="mb-3 text-contrast-600 fw-semibold text-smaller" style="letter-spacing:0.3em;">
+                Av. Pradilla # 9-00, Chía, Cundinamarca
             </p>
                     </div>
                 </div>

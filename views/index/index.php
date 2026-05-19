@@ -67,6 +67,98 @@
             </div>
         </div>
     </article>
+    <article class="portfolio-item pf-graphics pf-uielements">
+        <div class="grid-inner">
+            <div class="portfolio-image">
+                <a href="#">
+                    <img src="/build/img/008.webp" alt="Mac Sunglasses">
+                </a>
+            </div>
+        </div>
+    </article>
+    <article class="portfolio-item pf-graphics pf-uielements">
+        <div class="grid-inner">
+            <div class="portfolio-image">
+                <a href="#">
+                    <img src="/build/img/009.webp" alt="Mac Sunglasses">
+                </a>
+            </div>
+        </div>
+    </article>
+    <article class="portfolio-item pf-graphics pf-uielements">
+        <div class="grid-inner">
+            <div class="portfolio-image">             
+                <a href="#">
+                    <img src="/build/img/010.webp" alt="Mac Sunglasses">
+                </a>
+            </div>
+        </div>
+    </article>
+    <article class="portfolio-item pf-graphics pf-uielements">
+        <div class="grid-inner">
+            <div class="portfolio-image">
+                <a href="#">
+                    <img src="/build/img/011.webp" alt="Mac Sunglasses">
+                </a>
+            </div>
+        </div>
+    </article>
+    <article class="portfolio-item pf-graphics pf-uielements">
+        <div class="grid-inner">
+            <div class="portfolio-image">
+                <a href="#">
+                    <img src="/build/img/012.webp" alt="Mac Sunglasses">
+                </a>
+            </div>
+        </div>
+    </article>
+    <article class="portfolio-item pf-graphics pf-uielements">
+        <div class="grid-inner">
+            <div class="portfolio-image">
+                <a href="#">
+                    <img src="/build/img/013.webp" alt="Mac Sunglasses">
+                </a>
+            </div>
+        </div>
+    </article>
+    <article class="portfolio-item pf-graphics pf-uielements">
+        <div class="grid-inner">
+            <div class="portfolio-image">
+                <a href="#">
+                    <img src="/build/img/014.webp" alt="Mac Sunglasses">
+                </a>
+            </div>
+        </div>
+    </article>
+    <article class="portfolio-item pf-graphics pf-uielements">
+        <div class="grid-inner">
+            <div class="portfolio-image">
+                <a href="#">
+                    <img src="/build/img/015.webp" alt="Mac Sunglasses">
+                </a>
+            </div>
+        </div>
+    </article>
+    <article class="portfolio-item pf-graphics pf-uielements">
+        <div class="grid-inner">
+            <div class="portfolio-image">
+                <a href="#">
+                    <img src="/build/img/016.webp" alt="Mac Sunglasses">
+                </a>
+            </div>
+        </div>
+    </article>
+    <article class="portfolio-item pf-graphics pf-uielements">
+        <div class="grid-inner">
+            <div class="portfolio-image">
+                <a href="#">
+                    <img src="/build/img/017.webp" alt="Mac Sunglasses">
+                </a>
+            </div>
+        </div>
+    </article>
+
+
 </div><!-- .portfolio-carousel end -->
 
 
