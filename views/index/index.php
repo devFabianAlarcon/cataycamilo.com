@@ -130,20 +130,20 @@
         <div id="weddingCountdown" class="d-flex align-items-center justify-content-center gap-2 mb-5">
             <div class="d-flex flex-column align-items-center">
                 <span id="cd-days" class="fw-bold text-contrast-900 wedding-cd-num">--</span>
-                <span class="text-smaller text-contrast-500 ls-2 fw-semibold" style="letter-spacing: 0.18em;">Días</span>
+                <span class="text-smaller text-contrast-600 ls-2 fw-semibold" style="letter-spacing: 0.18em;">Días</span>
             </div>
             <span class="op-04 text-contrast-600 fs-4">|</span>
             <div class="d-flex flex-column align-items-center">
                 <span id="cd-hours" class="fw-bold text-contrast-900 wedding-cd-num">--</span>
-                <span class="text-smaller text-contrast-500 ls-2 fw-semibold" style="letter-spacing: 0.18em;">H</span>
+                <span class="text-smaller text-contrast-600 ls-2 fw-semibold" style="letter-spacing: 0.18em;">H</span>
             </div>
             <div class="d-flex flex-column align-items-center">
                 <span id="cd-mins" class="fw-bold text-contrast-900 wedding-cd-num">--</span>
-                <span class="text-smaller text-contrast-500 ls-2 fw-semibold" style="letter-spacing: 0.18em;">Min</span>
+                <span class="text-smaller text-contrast-600 ls-2 fw-semibold" style="letter-spacing: 0.18em;">Min</span>
             </div>
             <div class="d-flex flex-column align-items-center">
                 <span id="cd-secs" class="fw-bold text-contrast-900 wedding-cd-num">--</span>
-                <span class="text-smaller text-contrast-500 ls-2 fw-semibold" style="letter-spacing: 0.18em;">S</span>
+                <span class="text-smaller text-contrast-600 ls-2 fw-semibold" style="letter-spacing: 0.18em;">S</span>
             </div>
         </div>
         

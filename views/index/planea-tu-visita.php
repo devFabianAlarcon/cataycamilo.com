@@ -16,7 +16,7 @@
             Planea Tu Visita
         </h2>
 
-        <p class="text-contrast-500 fw-semibold text-smaller mb-5"
+        <p class="text-contrast-600 fw-semibold text-smaller mb-5"
            style="letter-spacing:0.35em; text-transform:uppercase;">
             Te compartimos algunos datos útiles para tu estadía
         </p>
@@ -67,7 +67,7 @@
                                   color:#2e2b26;">
                             Sabana Park
                         </p>
-                        <p class="mb-0 text-smaller text-contrast-500 fw-semibold pb-3"
+                        <p class="mb-0 text-smaller text-contrast-600 fw-semibold pb-3"
                            style="letter-spacing:0.2em;">
                             Cod: CATALINA Y CAMILO
                         </p>
@@ -159,7 +159,7 @@
                             Uber
                         </p>
 
-                        <p class="mb-0 text-smaller text-contrast-500 fw-semibold pb-3"
+                        <p class="mb-0 text-smaller text-contrast-600 fw-semibold pb-3"
                            style="letter-spacing:0.2em;">
                             No uses taxi
                         </p>
@@ -185,7 +185,7 @@
                             Conductor Elegido Andrés
                         </p>
 
-                        <p class="mb-0 text-smaller text-contrast-500 fw-semibold pb-3"
+                        <p class="mb-0 text-smaller text-contrast-600 fw-semibold pb-3"
                            style="letter-spacing:0.2em;">
                             RAIDA Servicios de Movilidad
                         </p>
@@ -245,7 +245,7 @@
                                   font-size:1.3rem;">
                             Fontanar
                         </p>
-                                    <p class="mb-3 text-contrast-500 fw-semibold text-smaller" style="letter-spacing:0.3em; text-transform:uppercase;">
+                                    <p class="mb-3 text-contrast-600 fw-semibold text-smaller" style="letter-spacing:0.3em; text-transform:uppercase;">
                 Calle 3 # 11A-56, Variante de la Luna
             </p>
                     </div>
@@ -260,7 +260,7 @@
                                   font-size:1.3rem;">
                             Centro Chia
                         </p>
-                                    <p class="mb-3 text-contrast-500 fw-semibold text-smaller" style="letter-spacing:0.3em; text-transform:uppercase;">
+                                    <p class="mb-3 text-contrast-600 fw-semibold text-smaller" style="letter-spacing:0.3em; text-transform:uppercase;">
                 Calle 3 # 11A-56, Variante de la Luna
             </p>
                     </div>
@@ -276,7 +276,7 @@
                                   font-size:1.3rem;">
                             Peluquería Sabana
                         </p>
-                                    <p class="mb-3 text-contrast-500 fw-semibold text-smaller" style="letter-spacing:0.3em; text-transform:uppercase;">
+                                    <p class="mb-3 text-contrast-600 fw-semibold text-smaller" style="letter-spacing:0.3em; text-transform:uppercase;">
                 Calle 3 # 11A-56, Variante de la Luna
             </p>
                     </div>

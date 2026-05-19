@@ -11,7 +11,7 @@
             Nuestra Historia
         </h2>
 
-        <p class="text-contrast-500 fw-semibold text-smaller mb-5"
+        <p class="text-contrast-600 fw-semibold text-smaller mb-5"
            style="letter-spacing:0.35em; text-transform:uppercase;">
             Entre risas, viajes y recuerdos… así llegamos hasta aquí!
         </p>

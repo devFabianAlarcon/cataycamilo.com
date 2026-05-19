@@ -10,7 +10,7 @@
         <h2 class="mb-2 fw-light" style="font-family:'Bodoni Moda',Georgia,serif; font-size:clamp(1.6rem,3vw,2.4rem); letter-spacing:0.15em; text-transform:uppercase; color:#2e2b26;">
             La Boda
         </h2>
-        <p class="text-contrast-500 fw-semibold text-smaller mb-5" style="letter-spacing:0.4em; text-transform:uppercase;">
+        <p class="text-contrast-600 fw-semibold text-smaller mb-5" style="letter-spacing:0.4em; text-transform:uppercase;">
             La Ceremonia y Celebración serán en el mismo lugar
         </p>
 
@@ -93,6 +93,26 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="d-flex align-items-center justify-content-center gap-2 mb-5 mx-auto" style="max-width:200px;" aria-hidden="true">
+            <span class="flex-grow-1" style="height:1px;background:var(--cnvs-themecolor);opacity:.2;display:block;"></span>
+            <svg width="6" height="6" viewBox="0 0 6 6"><circle cx="3" cy="3" r="2.5" stroke="var(--cnvs-themecolor)" stroke-width="0.8" fill="none"/></svg>
+            <span class="flex-grow-1" style="height:1px;background:var(--cnvs-themecolor);opacity:.2;display:block;"></span>
+        </div>
+
+        <!-- ── REGALOS ────────────────────────────────────────── -->
+        <div class="mb-5">
+            <p class="mb-3 fw-semibold text-smaller" style="letter-spacing:0.45em; text-transform:uppercase; color:var(--cnvs-themecolor);">
+                Regalos
+            </p>
+            <p class="mb-2 fw-light" style="font-family:'Bodoni Moda',Georgia,serif; font-size:clamp(1rem,1.5vw,1.2rem); letter-spacing:0.05em; color:#2e2b26;">
+                Tu compania es el mejor regalo!
+            </p>
+            <p class="mb-3 text-contrast-900 fw-light" style="font-size:0.95rem; line-height:1.6; letter-spacing:0.02em;">
+                Queremos compartir contigo una noche de celebración, sonrisas y abrazos. Si aún quieres darnos un detalle, tendremos una lluvia de sobres el día de la boda.
+            </p>
         </div>
 
         <!-- Divider -->
