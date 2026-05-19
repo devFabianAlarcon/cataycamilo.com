@@ -13,7 +13,7 @@
 
         <p class="text-contrast-500 fw-semibold text-smaller mb-5"
            style="letter-spacing:0.35em; text-transform:uppercase;">
-            Un Resumen de lo mas importante que hemos vivido juntos
+            Entre risas, viajes y recuerdos… así llegamos hasta aquí!
         </p>
 
         <!-- Divider -->

@@ -53,7 +53,7 @@
             <p class="mb-3 text-contrast-900 fw-semibold text-smaller" style="letter-spacing:0.3em; text-transform:uppercase;">
                 Calle 3 # 11A-56, Variante de la Luna
             </p>
-            <p class="mb-3 text-contrast-500 fw-semibold text-smaller" style="letter-spacing:0.3em; text-transform:uppercase;">
+            <p class="mb-3 text-contrast-900 fw-semibold text-smaller" style="letter-spacing:0.3em; text-transform:uppercase;">
                 Chía, Colombia
             </p>
             <a href="https://maps.google.com/?q=Andres+Carne+de+Res+Chia" target="_blank" rel="noopener"

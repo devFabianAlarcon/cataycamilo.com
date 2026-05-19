@@ -110,7 +110,7 @@
 
         <!-- Time -->
         <p class="mb-2 fw-light text-contrast-700" style="font-family: 'cormorant-garamond', Georgia, serif; font-size: clamp(1rem, 2vw, 1.4rem); letter-spacing: 0.35em;">
-            3 : 0 0 &nbsp; P M
+            3:00 &nbsp; PM
         </p>
  
 
@@ -146,6 +146,11 @@
                 <span class="text-smaller text-contrast-500 ls-2 fw-semibold" style="letter-spacing: 0.18em;">S</span>
             </div>
         </div>
+        
+        <div class="mb-4">
+            <a href="/rsvp" class="menu-link button button-border button-circle border-color d-sm-block d-lg-none" style="border-color:var(--cnvs-themecolor); color:var(--cnvs-themecolor); letter-spacing:0.2em; text-transform: uppercase;">R s v p</a>
+        </div>
+        
 
                 <!-- Ornament -->
         <div class="mb-4" aria-hidden="true">

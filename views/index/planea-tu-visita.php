@@ -59,11 +59,6 @@
                          style="border:1px solid rgba(184,150,90,.22);
                                 background:rgba(249,244,237,.55);">
 
-                        <img src="/build/img/sabana.webp"
-                             class="mb-4"
-                             alt="Sabana Park"
-                             style="width:100%;
-                                    height:280px;">
 
                         <p class="mb-2 fw-light"
                            style="font-family:'Bodoni Moda',Georgia,serif;
@@ -71,6 +66,10 @@
                                   letter-spacing:.08em;
                                   color:#2e2b26;">
                             Sabana Park
+                        </p>
+                        <p class="mb-0 text-smaller text-contrast-500 fw-semibold pb-3"
+                           style="letter-spacing:0.2em;">
+                            Cod: CATALINA Y CAMILO
                         </p>
 
                         <a href="https://www.hotelsabanapark.com.co/en/"
@@ -90,11 +89,6 @@
                          style="border:1px solid rgba(184,150,90,.22);
                                 background:rgba(249,244,237,.55);">
 
-                        <img src="/build/img/b3.webp"
-                             class="mb-4"
-                             alt="B3 Hotel"
-                             style="width:100%;
-                                    height:280px;">
 
                         <p class="mb-2 fw-light"
                            style="font-family:'Bodoni Moda',Georgia,serif;
@@ -102,6 +96,10 @@
                                   letter-spacing:.08em;
                                   color:#2e2b26;">
                             B3 Hotel
+                        </p>
+                        <p class="mb-0 text-smaller fw-semibold pb-3"
+                           style="letter-spacing:0.2em; color:#F8F4F1">
+                            Cod: CATALINA Y CAMILO
                         </p>
 
                         <a href="https://hotelesb3.com/hotelb3sibelius/"
@@ -149,32 +147,6 @@
             </p>
 
             <div class="row g-4 justify-content-center">
-
-                <div class="col-12 col-md-4">
-                    <div class="p-4 h-100"
-                         style="border:1px solid rgba(184,150,90,.22);
-                                background:rgba(249,244,237,.55);">
-
-                        <p class="mb-2 fw-light"
-                           style="font-family:'Bodoni Moda',Georgia,serif;
-                                  font-size:1.3rem;">
-                            Hotel Sabana Park
-                        </p>
-
-                        <p class="mb-0 text-smaller text-contrast-500 fw-semibold pb-3"
-                           style="letter-spacing:0.2em;">
-                            Cod: CATALINA Y CAMILO
-                        </p>
-                        <a href="https://www.hotelsabanapark.com.co/es/"
-                           target="_blank"
-                           class="button button-border rounded-pill text-smaller fw-bold px-4 py-2"
-                           style="border-color:var(--cnvs-themecolor);
-                                  color:var(--cnvs-themecolor);
-                                  letter-spacing:0.2em;">
-                            Ver Hotel
-                        </a>
-                    </div>
-                </div>
 
                 <div class="col-12 col-md-4">
                     <div class="p-4 h-100"
@@ -273,6 +245,24 @@
                                   font-size:1.3rem;">
                             Fontanar
                         </p>
+                                    <p class="mb-3 text-contrast-500 fw-semibold text-smaller" style="letter-spacing:0.3em; text-transform:uppercase;">
+                Calle 3 # 11A-56, Variante de la Luna
+            </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="p-4"
+                         style="border:1px solid rgba(184,150,90,.22);
+                                background:rgba(249,244,237,.55);">
+
+                        <p class="mb-0 fw-light"
+                           style="font-family:'Bodoni Moda',Georgia,serif;
+                                  font-size:1.3rem;">
+                            Centro Chia
+                        </p>
+                                    <p class="mb-3 text-contrast-500 fw-semibold text-smaller" style="letter-spacing:0.3em; text-transform:uppercase;">
+                Calle 3 # 11A-56, Variante de la Luna
+            </p>
                     </div>
                 </div>
 
@@ -286,6 +276,9 @@
                                   font-size:1.3rem;">
                             Peluquería Sabana
                         </p>
+                                    <p class="mb-3 text-contrast-500 fw-semibold text-smaller" style="letter-spacing:0.3em; text-transform:uppercase;">
+                Calle 3 # 11A-56, Variante de la Luna
+            </p>
                     </div>
                 </div>
 
